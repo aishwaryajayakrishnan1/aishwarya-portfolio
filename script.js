@@ -38,6 +38,8 @@ const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entr
 const focusLabels=['Find the real objective','Turn ambiguity into a path','Make ownership visible','Track, unblock, adapt','Deliver, reflect, improve'];
 document.querySelectorAll('.step').forEach((el,i)=>el.addEventListener('click',()=>{const clarity=Math.min(98,34+i*16);document.querySelector('#console-focus').textContent=focusLabels[i];document.querySelector('#clarity-value').textContent=clarity+'%';document.querySelector('#clarity-fill').style.width=clarity+'%';document.querySelector('.core-index').textContent=String(i+1).padStart(2,'0')}));
 
+document.querySelectorAll('[data-flip-card]').forEach(card=>card.querySelectorAll('.flip-trigger').forEach(button=>button.addEventListener('click',()=>{const flipped=card.classList.toggle('is-flipped');card.querySelectorAll('.flip-trigger').forEach(trigger=>trigger.setAttribute('aria-expanded',String(flipped)))})));
+
 const galleryGrid=document.querySelector('#gallery-grid');
 const placeholderItems=[
   {title:'Your hero campaign',category:'campaign',label:'CAMPAIGN / 01'},

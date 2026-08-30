@@ -1,0 +1,6 @@
+.flip-card:nth-child(1) .flip-front{background:#173d32;color:#fff9ed}
+.flip-card:nth-child(1) .flip-front:before{background-image:linear-gradient(rgba(23,61,50,.15),rgba(23,61,50,.78)),url('assets/mockups/campaign-mockup-01.png')}
+.flip-card:nth-child(2) .flip-front{background:#090909;color:#fff}
+.flip-card:nth-child(2) .flip-front:before{background-image:linear-gradient(rgba(9,9,9,.08),rgba(9,9,9,.7)),url('assets/mockups/workflow-mockup-01.png')}
+.flip-card:nth-child(3) .flip-front:before{background-image:linear-gradient(rgba(17,18,15,.15),rgba(17,18,15,.75)),url('assets/mockups/adoption-mockup-01.png')}
+.flip-card:nth-child(1) .flip-trigger,.flip-card:nth-child(2) .flip-trigger{color:inherit}

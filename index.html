@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="gallery.css">
   <link rel="stylesheet" href="approach-v2.css">
   <link rel="stylesheet" href="approach-v3.css">
+  <link rel="stylesheet" href="project-cards.css">
+  <link rel="stylesheet" href="project-cards-v2.css">
+  <link rel="stylesheet" href="brand-cards.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -52,35 +55,54 @@
       </div>
     </section>
 
-    <section class="work section-pad dark" id="work">
+    <section class="work project-lab section-pad dark" id="work">
       <div class="section-heading reveal">
-        <div><p class="eyebrow">SELECTED WORK</p><h2>Case files, not<br>client secrets.</h2></div>
-        <p>Professional work is anonymized. Proprietary names, assets, performance data and project-specific details are intentionally withheld.</p>
+        <div><p class="eyebrow">PROJECT LAB</p><h2>Projects built to show<br>how I think.</h2></div>
+        <p>Self-initiated simulations that turn realistic GenAI and digital challenges into structured project plans. No client work or company information is used.</p>
       </div>
 
-      <div class="case-grid">
-        <article class="case-card lime reveal">
-          <div class="case-top"><span>CONFIDENTIAL / 01</span><span>Creative delivery</span></div>
-          <h3>From an open brief<br>to a shared direction.</h3>
-          <p>Translating marketing requirements into GenAI storyboards and visual routes—then coordinating feedback and refinement.</p>
-          <button class="case-open" data-case="case-1" aria-expanded="false">Open case file <span>↗</span></button>
-          <div class="card-orbit" aria-hidden="true"><span>BRIEF</span><span>ALIGN</span><span>BUILD</span></div>
+      <div class="flip-grid">
+        <article class="flip-card reveal" data-flip-card>
+          <div class="flip-inner">
+            <div class="flip-face flip-front lime">
+              <div class="case-top"><span>SIMULATION / 01</span><span>Campaign delivery</span></div>
+              <div><p class="flip-number">01</p><h3>The Monsoon Table</h3><p>A seasonal identity and launch for a luxury Indian restaurant.</p></div>
+              <button class="flip-trigger" aria-expanded="false">View the thinking <span>↻</span></button>
+            </div>
+            <div class="flip-face flip-back">
+              <div class="case-top"><span>THE PROJECT</span><button class="flip-trigger flip-close" aria-label="Show project cover" aria-expanded="true">×</button></div>
+              <dl><div><dt>Problem</dt><dd>A luxury restaurant needs one seasonal story across menu, photography, reservations and social.</dd></div><div><dt>Output</dt><dd>Launch brief, identity system, production plan, dependencies, approvals and QA.</dd></div><div><dt>Focus</dt><dd>Brand launch · Production · Hospitality</dd></div></dl>
+              <a href="project-campaign.html">Open full project <span>↗</span></a>
+            </div>
+          </div>
         </article>
-
-        <article class="case-card blue reveal">
-          <div class="case-top"><span>CONFIDENTIAL / 02</span><span>Cross-functional</span></div>
-          <h3>Making global creative<br>work move as one.</h3>
-          <p>Supporting a multi-stakeholder marketing workstream through clear ownership, communication and delivery tracking.</p>
-          <button class="case-open" data-case="case-2" aria-expanded="false">Open case file <span>↗</span></button>
-          <div class="card-lines" aria-hidden="true"></div>
+        <article class="flip-card reveal" data-flip-card>
+          <div class="flip-inner">
+            <div class="flip-face flip-front blue">
+              <div class="case-top"><span>SIMULATION / 02</span><span>Creative operations</span></div>
+              <div><p class="flip-number">02</p><h3>One Brief, One Direction</h3><p>A cleaner creative workflow for an Indian Gen-Z fashion label.</p></div>
+              <button class="flip-trigger" aria-expanded="false">View the thinking <span>↻</span></button>
+            </div>
+            <div class="flip-face flip-back">
+              <div class="case-top"><span>THE PROJECT</span><button class="flip-trigger flip-close" aria-label="Show project cover" aria-expanded="true">×</button></div>
+              <dl><div><dt>Problem</dt><dd>Drop campaigns are slowed by scattered briefs, competing feedback and unclear final files.</dd></div><div><dt>Output</dt><dd>Drop intake, RACI-lite, review rhythm, version system and channel handoff.</dd></div><div><dt>Focus</dt><dd>Creative operations · Fashion · Launch control</dd></div></dl>
+              <a href="project-workflow.html">Open full project <span>↗</span></a>
+            </div>
+          </div>
         </article>
-
-        <article class="case-card coral reveal">
-          <div class="case-top"><span>CONFIDENTIAL / 03</span><span>Process improvement</span></div>
-          <h3>Finding the system<br>inside the process.</h3>
-          <p>Exploring creative automation opportunities by mapping friction, aligning stakeholders and shaping practical next steps.</p>
-          <button class="case-open" data-case="case-3" aria-expanded="false">Open case file <span>↗</span></button>
-          <div class="card-stamp" aria-hidden="true">HOW MIGHT WE?</div>
+        <article class="flip-card reveal" data-flip-card>
+          <div class="flip-inner">
+            <div class="flip-face flip-front coral">
+              <div class="case-top"><span>SIMULATION / 03</span><span>AI adoption</span></div>
+              <div><p class="flip-number">03</p><h3>Human in the Loop</h3><p>A responsible GenAI pilot for an independent Indian creative agency.</p></div>
+              <button class="flip-trigger" aria-expanded="false">View the thinking <span>↻</span></button>
+            </div>
+            <div class="flip-face flip-back">
+              <div class="case-top"><span>THE PROJECT</span><button class="flip-trigger flip-close" aria-label="Show project cover" aria-expanded="true">×</button></div>
+              <dl><div><dt>Problem</dt><dd>An Indian creative agency is experimenting with GenAI without shared rules, confidence or review standards.</dd></div><div><dt>Output</dt><dd>Use-case matrix, pilot roadmap, agency guardrails, training paths and scorecard.</dd></div><div><dt>Focus</dt><dd>Change management · Responsible AI · Creative operations</dd></div></dl>
+              <a href="project-ai-adoption.html">Open full project <span>↗</span></a>
+            </div>
+          </div>
         </article>
       </div>
     </section>
