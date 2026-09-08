@@ -49,10 +49,10 @@ const placeholderItems=[
 const galleryItems=window.galleryItems?.length?window.galleryItems:placeholderItems;
 function renderGallery(filter='all'){
   const items=galleryItems.filter(item=>filter==='all'||item.category===filter);
-  galleryGrid.innerHTML=items.map((item,index)=>`<article class="gallery-item ${item.src?'has-asset':'is-placeholder'} reveal visible">
+  galleryGrid.innerHTML=items.map((item,index)=>`${item.href?`<a class="gallery-card-link" href="${item.href}" aria-label="Open ${item.title} project">`:''}<article class="gallery-item ${item.src?'has-asset':'is-placeholder'} reveal visible">
     <div class="gallery-media">${item.type==='video'?`<video src="${item.src}" muted loop playsinline controls aria-label="${item.alt||item.title}"></video>`:item.src?`<img src="${item.src}" alt="${item.alt||item.title}" loading="lazy">`:`<div class="upload-placeholder"><span>+</span><small>ADD ASSET ${String(index+1).padStart(2,'0')}</small></div>`}</div>
-    <div class="gallery-meta"><span>${item.label||item.category}</span><h3>${item.title}</h3><p>${item.description||'Add a short note about the brief, your role and the creative decision behind this piece.'}</p></div>
-  </article>`).join('');
+    <div class="gallery-meta"><span>${item.label||item.category}</span><h3>${item.title}</h3><p>${item.description||'Add a short note about the brief, your role and the creative decision behind this piece.'}</p>${item.href?`<span class="gallery-open">Open full project <b>↗</b></span>`:''}</div>
+  </article>${item.href?'</a>':''}`).join('');
   document.querySelector('#gallery-count').textContent=window.galleryItems?.length?`${items.length} SELECTED PIECE${items.length===1?'':'S'}`:'READY FOR YOUR WORK';
 }
 renderGallery();

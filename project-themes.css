@@ -8,13 +8,13 @@
 .theme-restaurant .mockup-slot{border-color:#173d32}.theme-restaurant .mockup-slot figcaption{background:#173d32;color:#fff9ed}
 .theme-fashion{--paper:#f4f1ea;--white:#fff;--ink:#090909;--line:rgba(9,9,9,.28);--blue:#1747ff;--coral:#ff3ca6;background:#f4f1ea}
 .theme-fashion .project-nav,.theme-fashion .project-footer,.theme-fashion .project-facts,.theme-fashion .risk-table th{background:#090909}.theme-fashion .project-hero{background:#1747ff;color:#fff;padding-right:calc(50% + 3rem)}
-.theme-fashion .project-hero:before{background-image:url('assets/mockups/workflow-mockup-01.png')}.theme-fashion .project-hero:after{background:#ff3ca6;transform:skew(-7deg);width:18px;left:calc(50% - 9px)}
+.theme-fashion .project-hero:before{background-image:url('assets/mockups/workflow-mockup-01.webp')}.theme-fashion .project-hero:after{background:#ff3ca6;transform:skew(-7deg);width:18px;left:calc(50% - 9px)}
 .theme-fashion .project-hero h1{text-transform:uppercase;font-weight:800;letter-spacing:-.075em}.theme-fashion .project-hero .label{background:#ff3ca6;color:#090909;border:0;transform:rotate(-1deg)}
 .theme-fashion .project-section:nth-child(even){box-shadow:10px 10px 0 #1747ff}.theme-fashion .project-section:nth-child(4){box-shadow:10px 10px 0 #ff3ca6}
 .theme-fashion .deliverable{background:#fff}.theme-fashion .deliverable:nth-child(2),.theme-fashion .timeline div:nth-child(2){background:#d7ff35}.theme-fashion .deliverable:nth-child(3),.theme-fashion .timeline div:nth-child(3){background:#ffb8dd}.theme-fashion .timeline div:nth-child(4){background:#b9c8ff}
 .theme-fashion .mockup-heading h2{text-transform:uppercase}.theme-fashion .mockup-slot figcaption{background:#090909;color:#fff}
 .theme-ai{--paper:#efe9dc;--white:#fffaf0;--ink:#17362d;--line:rgba(23,54,45,.22);--blue:#315fce;--coral:#df6948;background:#efe9dc}
-.theme-ai .project-nav,.theme-ai .project-footer,.theme-ai .project-facts,.theme-ai .risk-table th{background:#17362d}.theme-ai .project-hero{background:#e5dfcf}.theme-ai .project-hero:before{background-image:url('assets/mockups/adoption-mockup-01.png')}.theme-ai .project-hero:after{background:linear-gradient(#315fce,#e2ad2f,#df6948);width:8px;left:calc(50% - 4px)}
+.theme-ai .project-nav,.theme-ai .project-footer,.theme-ai .project-facts,.theme-ai .risk-table th{background:#17362d}.theme-ai .project-hero{background:#e5dfcf}.theme-ai .project-hero:before{background-image:url('assets/mockups/adoption-mockup-01.webp')}.theme-ai .project-hero:after{background:linear-gradient(#315fce,#e2ad2f,#df6948);width:8px;left:calc(50% - 4px)}
 .theme-ai .project-hero .label{background:#e2ad2f;border:0;color:#17362d}.theme-ai .project-section:nth-child(even){background:#fffaf0;box-shadow:10px 10px 0 #315fce}.theme-ai .project-section:nth-child(4){box-shadow:10px 10px 0 #e2ad2f}
 .theme-ai .timeline div:nth-child(2){background:#d8e2ff}.theme-ai .timeline div:nth-child(3){background:#f2d47e}.theme-ai .timeline div:nth-child(4){background:#df9a83}.theme-ai .mockup-slot figcaption{background:#17362d;color:#fffaf0}
 @media(max-width:900px){.theme-fashion .project-hero{padding:3rem var(--pad) 60vw}}
